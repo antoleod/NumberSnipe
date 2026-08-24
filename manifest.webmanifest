@@ -1,0 +1,18 @@
+{
+  "name": "NumberSnipe",
+  "short_name": "NumberSnipe",
+  "description": "See it. Snipe it. Competitive number hunting for phones, tablets, laptops and TV party play.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0e0e",
+  "theme_color": "#0e0e0e",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/numbersnipe.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
