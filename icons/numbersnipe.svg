@@ -1,7 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
-  <rect width="512" height="512" rx="112" fill="#0E0E0E"/>
-  <circle cx="256" cy="256" r="146" stroke="#39FF14" stroke-width="18" stroke-dasharray="42 22"/>
-  <path d="M256 72v88M256 352v88M72 256h88M352 256h88" stroke="#39FF14" stroke-width="24" stroke-linecap="round"/>
-  <circle cx="256" cy="256" r="18" fill="#39FF14"/>
-  <path d="M198 198l28 28M286 286l28 28M314 198l-28 28M226 286l-28 28" stroke="#39FF14" stroke-width="14" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="g" x1="96" y1="82" x2="420" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78FF63"/>
+      <stop offset="1" stop-color="#24D90A"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#0B0D0B"/>
+  <rect x="14" y="14" width="484" height="484" rx="102" stroke="#1F241F" stroke-width="2"/>
+  <circle cx="256" cy="256" r="146" stroke="#293029" stroke-width="14"/>
+  <path d="M256 82v64M256 366v64M82 256h64M366 256h64" stroke="url(#g)" stroke-width="18" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M179 328V184h37l80 92v-92h37v144h-34l-83-95v95h-37Z" fill="url(#g)"/>
+  <path d="M322 171 200 341" stroke="#0B0D0B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M318 170 196 341" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="12" fill="#0B0D0B" stroke="#78FF63" stroke-width="5"/>
+  <circle cx="256" cy="256" r="4" fill="#78FF63"/>
 </svg>

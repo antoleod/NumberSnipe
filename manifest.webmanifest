@@ -1,11 +1,11 @@
 {
   "name": "NumberSnipe",
   "short_name": "NumberSnipe",
-  "description": "See it. Snipe it. Competitive number hunting for phones, tablets, laptops and TV party play.",
+  "description": "Play, think and connect through fast number challenges for solo practice, family nights and friendly competition.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0e0e0e",
-  "theme_color": "#0e0e0e",
+  "background_color": "#0b0d0b",
+  "theme_color": "#0b0d0b",
   "orientation": "any",
   "icons": [
     {
