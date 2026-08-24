@@ -2,14 +2,15 @@
   "name": "NumberSnipe",
   "short_name": "NumberSnipe",
   "description": "Play, think and connect through fast number challenges for solo practice, family nights and friendly competition.",
-  "start_url": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#0b0d0b",
   "theme_color": "#0b0d0b",
   "orientation": "any",
   "icons": [
     {
-      "src": "/icons/numbersnipe.svg",
+      "src": "icons/numbersnipe.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
